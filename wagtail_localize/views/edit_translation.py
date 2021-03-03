@@ -273,7 +273,7 @@ def get_segment_location_info(source_instance, tab_helper, content_path, widget=
             }
 
         return {
-            'type': 'unknown'
+            'type': 'text'
         }
 
     def widget_from_block(block):
@@ -318,7 +318,7 @@ def get_segment_location_info(source_instance, tab_helper, content_path, widget=
             }
 
         return {
-            'type': 'unknown'
+            'type': 'text'
         }
 
     if isinstance(field, StreamField):
